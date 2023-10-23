@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+.Themebau-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0e0e0e;
+}
+.header {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  position: relative;
+  margin: 0 24px 0;
+}
+.logo {
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 0%;
+  height: 100vh;
+}
+.navBar ul {
+  list-style: none;
+  display: flex;
+}
+.navBar ul li a {
+  color: #ffffff;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.purchse-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 0.5rem;
+}
+.Themebau-title {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+  text-align: center;
+  line-height: 2;
+}
+.Themebau-title h2 {
+  font-size: 5rem;
+}
+.description {
+  min-width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 25vh;
+}
+/* IMAGE GALLARY STYLE */
+.image-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.image-box > li {
+  flex-basis: 350px; /* width: 350px; */
+}
+.image-box li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.image-box::after {
+  content: "";
+  flex-basis: 350px;
+}
+.overlay {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+/* ============================
+========================= */
+.over-images {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50vh;
+  position: relative;
+}
+.image-over {
+  position: absolute;
+  top: 30%;
+  right: 40%;
+  left: 9%;
+}
+.image-over > li {
+  list-style: none;
+}
+.img-down {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+.image-over li img {
+  max-width: 70%;
+  border-radius: 5px;
+  box-shadow: 3px 2px 5px white;
+}
+.about {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 40%;
+  float: left;
+}
+.about h2 {
+  color: black;
+  max-width: 100%;
+  font-size: 3rem;
+  margin-top: 40vh;
+}
+.about p {
+  margin-top: 20vh;
+  color: #0e0e0e;
+  font-size: 1.3rem;
+  margin-right: 10vh;
+}
+.about a {
+  text-decoration: none;
+  background: #0e0e0e;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-right: 70vh;
+  margin-top: 10vh;
+  word-spacing: 1%;
+}
